@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.title {
+    font-weight: lighter;
+}
+
+.main-img {
+    box-shadow: 0px 2px 5px lightgray;
+}
+
+.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eed;
+}
+
+.breadcrumb-item {
+    display: inline;
+    font-size: 14px;
+}
+
+.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">>";
+}
+
+.breadcrumb-item a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+    color: red;
+}
+
+.container {
+    display: flex; 
+  
+}
+
+.main-img {
+    box-shadow: 0px 2px 5px lightgray;
+}
+
+.metadata {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px auto;
+}
